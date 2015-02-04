@@ -20,4 +20,3 @@ VALUES(3, 'Luigi', 'Super', 'ilovelasagne@mail.com', 33333333);
 
 INSERT INTO deltagere(deltager_id, fornavn, etternavn, email, telnr)
 VALUES(4, 'Yoshi', 'Dino', 'ilovebbq@mail.com', 44444444);
- 
