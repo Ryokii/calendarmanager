@@ -20,6 +20,6 @@ VALUES('Peach','Toadstool','ilovecake@mail.com',22222222);
 INSERT INTO deltagere(fornavn,etternavn,email,telnr)
 VALUES('Luigi','Super','ilovelasagne@mail.com',33333333);
 
-INSERT INTO deltagere(fornavn,etternavn,email,telnr)
+INSERT INTO deltagere(fornavn,etternavn,email,telnr) 
 VALUES('Yoshi','Dino','ilovebbq@mail.com',44444444);
  
