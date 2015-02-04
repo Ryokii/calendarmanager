@@ -11,6 +11,8 @@ CREATE TABLE deltagere(
 
 ALTER TABLE deltagere AUTO_INCREMENT=1;
 
+ALTER TABLE deltagere ADD PRIMARY KEY (deltager_id);
+
 INSERT INTO deltagere(fornavn,etternavn,email,telnr)
 VALUES('Mario','Super','ilovespaghetti@mail.com',11111111);
 
@@ -21,4 +23,4 @@ INSERT INTO deltagere(fornavn,etternavn,email,telnr)
 VALUES('Luigi','Super','ilovelasagne@mail.com',33333333);
 
 INSERT INTO deltagere(fornavn,etternavn,email,telnr)
-VALUES('Yoshi','Dino','ilovebbq@mail.com',44444444); 
+VALUES('Yoshi','Dino','ilovebbq@mail.com',44444444);
