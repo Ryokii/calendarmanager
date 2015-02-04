@@ -8,7 +8,9 @@ CREATE TABLE deltagere(
   etternavn VARCHAR(30) NOT NULL,
   email VARCHAR(40) NOT NULL,
   telnr INT(8) NOT NULL);
-  
+
+ALTER TABLE deltagere AUTO_INCREMENT=1;
+
 INSERT INTO deltagere(fornavn,etternavn,email,telnr)
 VALUES('Mario','Super','ilovespaghetti@mail.com',11111111);
 
