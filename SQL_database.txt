@@ -9,14 +9,14 @@ CREATE TABLE deltagere(
   email VARCHAR(40) NOT NULL,
   telnr INT(8) NOT NULL);
   
-INSERT INTO deltagere(deltager_id, fornavn, etternavn, email, telnr)
-VALUES(1,'Mario','Super','ilovespaghetti@mail.com',11111111);
+INSERT INTO deltagere(fornavn,etternavn,email,telnr)
+VALUES('Mario','Super','ilovespaghetti@mail.com',11111111);
 
-INSERT INTO deltagere(deltager_id, fornavn, etternavn, email, telnr)
+INSERT INTO deltagere(fornavn,etternavn,email,telnr)
 VALUES(2,'Peach','Toadstool','ilovecake@mail.com',22222222);
 
-INSERT INTO deltagere(deltager_id, fornavn, etternavn, email, telnr)
+INSERT INTO deltagere(fornavn,etternavn,email,telnr)
 VALUES(3,'Luigi','Super','ilovelasagne@mail.com',33333333);
 
-INSERT INTO deltagere(deltager_id, fornavn, etternavn, email, telnr)
+INSERT INTO deltagere(fornavn,etternavn,email,telnr)
 VALUES(4,'Yoshi','Dino','ilovebbq@mail.com',44444444);
