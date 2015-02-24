@@ -13,7 +13,7 @@
 require 'rubygems'
 require 'dbi'
 
-#Oppretter forbindelsen til MySQL-serveren
+#Oppretter forbindelsen til MySQL-serveren:
 dbh = DBI.connect('DBI:Mysql:calendar_app','root','passordet')
 if dbh 
 	puts "Databaseforbindelsen er opprettet."
