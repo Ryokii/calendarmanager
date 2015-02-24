@@ -5,7 +5,7 @@ Vår veileder/prosjektveileder: Ismail H (HiOA)
 
 Vår oppdragsgiver: KnowIT 
 
-Vårt ekstra gruppemedlem/villeder: Tobias T (KnowIT)
+Vår veileder hos KnowIT: Tobias T
 
 Vi er en studentgruppe (Gruppe 16) som skal utvikle et
 konferansehåndteringssystem (SPA) på Web. Vi skal utvikle 
