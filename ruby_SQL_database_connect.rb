@@ -19,5 +19,4 @@ if dbh
 else 
 	puts "Kunne ikke opprette databaseforbindelsen, sjekk at parameterne er riktige/gyldige."
 end
-
 dbh.disconnect 
