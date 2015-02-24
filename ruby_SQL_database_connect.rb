@@ -14,7 +14,7 @@ require 'dbi'
 
 #Oppretter forbindelsen til MySQL-serveren
 dbh = DBI.connect('DBI:Mysql:calendar_app','root','passordet')
-if databaseforbindelse 
+if dbh 
 	puts "Databaseforbindelse opprettet."
 else 
 	puts "Kunne ikke opprette databaseforbindelse, sjekk at parameterne er riktige/gyldige."
