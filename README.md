@@ -1,5 +1,5 @@
 #calendarmanager
-StudentProsjekt 2015 (fra januar til mai)
+Bachelorprosjekt 2015 (fra januar til mai)
 
 Vår veileder/prosjektveileder: Ismail H (HiOA) 
 
