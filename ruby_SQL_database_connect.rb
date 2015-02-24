@@ -1,3 +1,4 @@
+#Link: http://www.tutorialspoint.com/ruby/ruby_database_access.htm
 #Fungerer med MySQL, etter installasjon av Ruby gems
 #Åpne kommandogrensesnittet og skriv inn (uten #)
 #gem install dbi
