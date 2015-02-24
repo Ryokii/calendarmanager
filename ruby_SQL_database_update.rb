@@ -1,3 +1,4 @@
+#Link: http://www.tutorialspoint.com/ruby/ruby_database_access.htm
 #YouTube-link: https://www.youtube.com/watch?v=A_iYYft3SX8
 #Slik kjører man spørringene til My-SQL-databasen med Ruby:
 #Først oppretter man forbindelsen igjen:
