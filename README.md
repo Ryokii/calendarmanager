@@ -1,8 +1,8 @@
 #calendarmanager
 StudentProsjekt 2015 (fra januar til mai)
 
-Vår veileder/prosjektveileder: Ismail H (HiOA)
-Vår oppdragsgiver: KnowIT
+Vår veileder/prosjektveileder: Ismail H (HiOA) 
+Vår oppdragsgiver: KnowIT 
 Vårt ekstra gruppemedlem/villeder: Tobias T (KnowIT)
 
 Vi er en studentgruppe (Gruppe 16) som skal utvikle et
