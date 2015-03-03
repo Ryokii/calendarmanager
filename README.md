@@ -18,8 +18,8 @@ flytende sammen, samt at brukergrensesnittet (på frontend) må
 appelere positivt og være brukervennlig for brukerne, og være 
 kompatibelt/fungere i alle de store nettleserne (ikke kun i de 
 nyeste nettleserne). Brukerne skal ikke trenge å laste ned 
-eller installere ulike plugins eller liknende. Applikasjonen 
-skal lastes ned direkte i nettleseren, uten tull og uten mellomsteg.
+eller installere ulike plugins eller liknende. Applikasjonen skal 
+kunne lastes ned direkte i nettleseren, uten tull og uten mellomsteg.
 
 Oppdateringer/merknader:
 
