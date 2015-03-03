@@ -43,7 +43,7 @@ CREATE TABLE events(
   master_email VARCHAR(40) NOT NULL,
   master_telnr INT(8) NOT NULL);
   
-ALTER TABLE deltakere ADD PRIMARY KEY (event_id);
+ALTER TABLE events ADD PRIMARY KEY (event_id);
 
 ALTER TABLE events AUTO_INCREMENT=1;
 
