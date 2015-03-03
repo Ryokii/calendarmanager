@@ -2,25 +2,27 @@ CREATE DATABASE calendar_app;
 
 USE calendar_app;
 
-CREATE TABLE deltagere(
+#Opprett deltakere tabell start
+
+CREATE TABLE deltakere(
   deltager_id INT(10) NOT NULL AUTO_INCREMENT,
   fornavn VARCHAR(30) NOT NULL,
   etternavn VARCHAR(30) NOT NULL,
   email VARCHAR(40) NOT NULL,
   telnr INT(8) NOT NULL);
 
-ALTER TABLE deltagere AUTO_INCREMENT=1;
+ALTER TABLE deltakere AUTO_INCREMENT=1;
 
-ALTER TABLE deltagere ADD PRIMARY KEY (deltager_id);
+ALTER TABLE deltakere ADD PRIMARY KEY (deltager_id);
 
-INSERT INTO deltagere(fornavn,etternavn,email,telnr)
+INSERT INTO deltakere(fornavn,etternavn,email,telnr)
 VALUES('Mario','Super','ilovespaghetti@mail.com',11111111);
 
-INSERT INTO deltagere(fornavn,etternavn,email,telnr)
+INSERT INTO deltakere(fornavn,etternavn,email,telnr)
 VALUES('Peach','Toadstool','ilovecake@mail.com',22222222);
 
-INSERT INTO deltagere(fornavn,etternavn,email,telnr)
+INSERT INTO deltakere(fornavn,etternavn,email,telnr)
 VALUES('Luigi','Super','ilovelasagne@mail.com',33333333);
 
-INSERT INTO deltagere(fornavn,etternavn,email,telnr)
+INSERT INTO deltakere(fornavn,etternavn,email,telnr)
 VALUES('Yoshi','Dino','ilovebbq@mail.com',44444444);
