@@ -11,6 +11,8 @@ Vi er en studentgruppe (Gruppe 16) som skal utvikle et
 konferansehåndteringssystem (SPA) på Web. Vi skal utvikle 
 det med teknologiene HTML, CSS og JavaScript i frontend.
 I backend skal vi bruke Ruby on Rails med JavaScript/jQuery.
+Databasen er MySQL/PostgreSQL. I tillegg skal systemet bruke
+et REST-grensesnitt (REST = Representational state transfer).
 
 Oppdateringer/merknader:
 
