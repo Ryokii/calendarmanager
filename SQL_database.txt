@@ -3,7 +3,7 @@ CREATE DATABASE calendar_app;
 USE calendar_app;
 
 CREATE TABLE deltagere(
-  deltager_id INT(4) NOT NULL AUTO_INCREMENT,
+  deltager_id INT(10) NOT NULL AUTO_INCREMENT,
   fornavn VARCHAR(30) NOT NULL,
   etternavn VARCHAR(30) NOT NULL,
   email VARCHAR(40) NOT NULL,
