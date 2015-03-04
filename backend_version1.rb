@@ -25,9 +25,9 @@ begin
 dbh = DBI.connect("DBI:Mysql:calendar_app:serveren", 
 	"brukernavnet","passordet")
 
-#Registrer brukeren fra SPA-en i databasen
+#Registrer brukeren fra registreringssiden i databasen
 #Brukerdataene vil komme fra registreringssiden til slutt,
-#Men bruker midlertidig vanlige SQL-verdier for å vise eksempelet
+#men bruker midlertidig vanlige SQL-verdier for å vise eksempelet
 
 sth = dbh.prepare(INSERT INTO deltakere(fornavn,etternavn,email,telnr)
 VALUES('Walter','Melon','waltermelon@mail.com',12121212))
