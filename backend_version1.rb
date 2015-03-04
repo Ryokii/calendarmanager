@@ -34,11 +34,8 @@ VALUES('Walter','Melon','waltermelon@mail.com',12121212))
 
 #Kjør spørringen mot databasen
 sth.execute
-end
 
-begin
 #Brukeren er registrert og får en bekreftelse på mail om dette
-
 from = "Calendar App <calendar@app.com>"
 to = "Walter Melon <waltermelon@mail.com>"
 subject = "Du er nå påmeldt eventet Vannmelonspising!"
