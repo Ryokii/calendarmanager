@@ -65,7 +65,7 @@ Net::SMTP.start('localhost',25) do |smtp|
 #Vis eventuelle feil
 rescue DBI::DatabaseError => e 
 	puts "En feil oppstod."
-	puts "Feilkode:    #{e.err}"
+	puts "Feilkode: #{e.err}"
 	puts "Feilmelding: #{e.errstr}"
 	puts "Vennligst prøv igjen, eller kontakt administrator."
 
