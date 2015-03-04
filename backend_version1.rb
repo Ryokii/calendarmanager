@@ -3,7 +3,7 @@
 #Vi kan for eksempel bruke variabler og arrays for å overføre 
 #de ulike brukerdataene (over SSL/TLS hvis dette er mulig), 
 #og vi må lage en frontend som er kompatibelt med dette og 
-#Som også er brukervennlig. RegEx er nytting i front end.
+#som også er brukervennlig. RegEx kan være nytting i frontend.
 #Sikkerheten er også viktig, for å unngå for eksempel SQL-injection.
 #For å bedre sikkerheten kan vi for eksempel bruke kompatible 
 #SQL-filtreringsfunksjoner (Ruby/Rails) før de sendes til databasen.
