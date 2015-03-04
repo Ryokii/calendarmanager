@@ -56,7 +56,7 @@ Du er nå påmeldt eventet Vannmelonspising!</b><p>
 <p><b>Pris: </b>Gratis (0,00 kr.)</p>
 <p><b>Vel møt og lykke til!</b></p>
 <a href="https://calendarappURLen/ShowUser?id=1234123444&email=waltermelon@mail.com&SESSID=6DB46DV76DFB6B5B5N">
-Trykk her for å gå til din brukerside på Calendarapp.</a>
+Trykk her for å gå til din brukerside på CalendarApp.</a>
 MESSAGE_END
 
 Net::SMTP.start('localhost',25) do |smtp|
