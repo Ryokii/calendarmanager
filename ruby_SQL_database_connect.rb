@@ -21,5 +21,5 @@ else
 	puts "Kunne ikke opprette databaseforbindelsen, sjekk at parameterne er riktige/gyldige."
 end
 
-#Man lukker forbindelsen til serveren slik
+#Til slutt lukker man forbindelsen til serveren slik
 dbh.disconnect
