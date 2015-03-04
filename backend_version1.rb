@@ -8,7 +8,7 @@
 #Sikkerheten er også viktig, for å unngå for eksempel SQL-injection.
 #For å bedre sikkerheten kan vi for eksempel bruke kompatible 
 #SQL-filtreringsfunksjoner (Ruby/Rails) før de sendes til databasen.
-#Husk å sjekke at config.force_ssl = true i config-filen til Ruby.
+#Husk å sjekke at config.force_ssl = true i configfilen til Ruby.
 
 #Manuallink1: http://www.tutorialspoint.com/ruby/ruby_sending_email.htm
 #Manuallink2: http://ruby-doc.org//stdlib-2.1.1/libdoc/net/smtp/rdoc/Net/SMTP.html
