@@ -48,9 +48,9 @@ MIME-Version: 1.0
 Content-Type: text/html
 
 <h1>Du er nå påmeldt eventet Vannmelonspising!</h1>
-<p><b>Gratulerer Walter Melon!<br /> 
+<p><b>Gratulerer, Walter Melon!<br /> 
 Du er nå påmeldt eventet Vannmelonspising!</b><p>
-<p><b>Dato og tid: </b>10. Juli 2020 kloken 16:00.</p>
+<p><b>Dato og tid: </b>10. Juli kloken 16:00.</p>
 <p><b>Sted: </b>Hvalstrand Bad ved stupetårnet.</p>
 <p><b>Pris: </b>Gratis (0,00 kr.)</p>
 <p><b>Vel møt og lykke til!</b></p>
@@ -60,11 +60,7 @@ MESSAGE_END
 
 Net::SMTP.start('localhost',25) do |smtp|
   smtp.send_message emailen,'from','to'
-
-rescue Exception => exception_feilen 
-	puts "En feil oppstod: "+exception_feilen
-	puts "Vennligst prøv igjen, eller kontakt administrator."
-
+ 
 #Vis eventuelle feil
 rescue DBI::DatabaseError => e 
 	puts "En feil oppstod."
