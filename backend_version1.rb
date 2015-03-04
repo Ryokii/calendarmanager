@@ -41,7 +41,7 @@ from = "Calendar App <calendar@app.com>"
 to = "Walter Melon <waltermelon@mail.com>"
 subject = "Du er nå påmeldt eventet Vannmelonspising!"
 
-emailen = <<MESSAGE_END
+message = <<MESSAGE_END
 From: #{from}
 To: #{to}
 Subject: #{subject}
@@ -60,7 +60,7 @@ Trykk her for å gå til din brukerside på Calendarapp.</a>
 MESSAGE_END
 
 Net::SMTP.start('localhost',25) do |smtp|
-  smtp.send_message emailen,'from','to'
+  smtp.send_message message,'from','to'
  
 #Vis eventuelle feil
 rescue DBI::DatabaseError => e 
