@@ -17,7 +17,7 @@ end
 #Her skriver man selve spørringene, for eksempel vil man 
 #oppdatere e-mail adressen til en bruker som ønsker dette:
 
-sth = dbh.prepare(UPDATE deltagere SET email = 'ny@emailadresse.com'
+sth = dbh.prepare(UPDATE deltakere SET email = 'ny@emailadresse.com'
 WHERE fornavn = 'Mario' AND etternavn = 'Super')
 
 #Så kjører man til slutt spørringen slik:
