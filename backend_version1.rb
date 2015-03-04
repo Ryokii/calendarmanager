@@ -64,15 +64,16 @@ MESSAGE_END
 Net::SMTP.start('localhost',25) do |smtp|
   smtp.send_message emailen,'from','to'
 
-rescue Exception => feilen 
-	print "En feil oppstod: "+feilen
-	print "Vennligst prøv igjen, eller kontakt administrator."
+rescue Exception => exception_feilen 
+	puts "En feil oppstod: "+exception_feilen
+	puts "Vennligst prøv igjen, eller kontakt administrator."
 
 #Vis eventuelle feil
 rescue DBI::DatabaseError => e 
 	puts "En feil oppstod."
 	puts "Feilkode:    #{e.err}"
 	puts "Feilmelding: #{e.errstr}"
+	puts "Vennligst prøv igjen, eller kontakt administrator."
 
 #Koble fra MySQL serveren/databasen
 ensure
