@@ -1,6 +1,6 @@
 #Dette er et eksempel på backend (Version 1).
 #Dette er altså et eksempel, det er ikke ferdig.
-#Det har vært fokus på enkel forståelig kode, så man lett kan redigere.
+#Det har vært fokus på enkel forståelig kode, så man lettere kan redigere.
 #Vi kan for eksempel bruke variabler og arrays for å overføre 
 #de ulike brukerdataene (over SSL/TLS hvis dette er mulig), 
 #og vi må lage en frontend som er kompatibelt med dette og 
