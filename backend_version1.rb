@@ -50,7 +50,7 @@ Content-Type: text/html
 
 <h1>Du er nå påmeldt eventet Vannmelonspising!</h1>
 <p><b>Gratulerer, Walter Melon!<br /> 
-Du er nå påmeldt eventet Vannmelonspising!</b><p>
+Du er nå påmeldt eventet Vannmelonspising!</b></p>
 <p><b>Dato og tid: </b>10. Juli kloken 16:00.</b></p>
 <p><b>Sted: </b>Hvalstrand Bad ved stupetårnet.</b></p>
 <p><b>Pris: </b>Gratis (0,00 kr.)</b></p>
