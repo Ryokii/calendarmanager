@@ -71,5 +71,5 @@ rescue DBI::DatabaseError => e
 
 #Koble fra MySQL serveren/databasen
 ensure
-     dbh.disconnect if dbh
+     dbh.disconnect
 end
