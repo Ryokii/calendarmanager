@@ -51,9 +51,9 @@ Content-Type: text/html
 <h1>Du er nå påmeldt eventet Vannmelonspising!</h1>
 <p><b>Gratulerer, Walter Melon!<br /> 
 Du er nå påmeldt eventet Vannmelonspising!</b><p>
-<p><b>Dato og tid: </b>10. Juli kloken 16:00.</p>
-<p><b>Sted: </b>Hvalstrand Bad ved stupetårnet.</p>
-<p><b>Pris: </b>Gratis (0,00 kr.)</p>
+<p><b>Dato og tid: </b>10. Juli kloken 16:00.</b></p>
+<p><b>Sted: </b>Hvalstrand Bad ved stupetårnet.</b></p>
+<p><b>Pris: </b>Gratis (0,00 kr.)</b></p>
 <p><b>Vel møt og lykke til!</b></p>
 <a href="https://calendarappURLen/ShowUser?id=1234123444&email=waltermelon@mail.com&SESSID=6DB46DV76DFB6B5B5N">
 Trykk her for å gå til din brukerside på CalendarApp.</a>
