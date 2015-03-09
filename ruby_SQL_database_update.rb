@@ -6,14 +6,13 @@
 require 'rubygems'
 require 'dbi'
 
+begin
 #Oppretter forbindelsen til MySQL-serveren:
 dbh = DBI.connect('DBI:Mysql:calendar_app','root','passordet')
 if dbh
 	puts "Databaseforbindelsen er opprettet."
 else
 	puts "Kunne ikke opprette databaseforbindelsen, sjekk at parameterne er riktige/gyldige."
-end
-
 #Her skriver man selve spørringene, for eksempel vil man 
 #oppdatere e-mail adressen til en bruker som ønsker dette:
 
@@ -24,3 +23,4 @@ WHERE fornavn = 'Mario' AND etternavn = 'Super')
 
 sth.execute
 dbh.disconnect
+end
