@@ -19,7 +19,6 @@ if dbh
 	puts "Databaseforbindelsen er opprettet."
 else 
 	puts "Kunne ikke opprette databaseforbindelsen, sjekk at parameterne er riktige/gyldige."
-end
-
 #Til slutt lukker man forbindelsen til serveren slik
 dbh.disconnect
+end
