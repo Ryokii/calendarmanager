@@ -10,7 +10,16 @@ Vår veileder hos KnowIT: Tobias T
 Vi er en studentgruppe (Gruppe 16) som skal utvikle et
 konferansehåndteringssystem (SPA) på Web. Vi skal utvikle 
 det med teknologiene HTML, CSS og JavaScript i frontend.
-I backend skal vi bruke Ruby on Rails med JavaScript/jQuery.
+I backend skal vi bruke Ruby on Rails med JavaScript (som jQuery).
+Databasen er MySQL/PostgreSQL. I tillegg skal systemet bruke
+et REST-grensesnitt (REST = Representational state transfer).
+Hovedutfordringen er å få alle disse "delene" til å snakke 
+flytende sammen, samt at brukergrensesnittet (på frontend) må
+appelere positivt og være brukervennlig for brukerne, og være 
+kompatibelt/fungere i alle de store nettleserne (ikke kun i de 
+nyeste nettleserne). Brukerne skal ikke trenge å laste ned 
+eller installere ulike plugins eller liknende. Applikasjonen skal 
+kunne lastes ned direkte i nettleseren, uten tull og uten mellomsteg.
 
 Oppdateringer/merknader:
 
