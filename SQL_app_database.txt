@@ -2,6 +2,8 @@ CREATE DATABASE calendar_app;
 
 USE calendar_app;
 
+#Kjør kommandoen: SET sql_mode = 'STRICT_ALL_TABLES';
+
 #Opprett deltakere tabell start
 
 CREATE TABLE deltakere( 
