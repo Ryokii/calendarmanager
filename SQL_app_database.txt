@@ -6,7 +6,7 @@ USE calendar_app;
 
 CREATE TABLE deltakere( 
   deltaker_id INT(10) NOT NULL AUTO_INCREMENT,
-  deltaker_about TEXT(10000) NOT NULL,
+  deltaker_about TEXT(3000) NOT NULL,
   fornavn VARCHAR(30) NOT NULL,
   etternavn VARCHAR(30) NOT NULL,
   email VARCHAR(40) NOT NULL,
