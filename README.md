@@ -37,3 +37,5 @@ ut hvordan vi kan kombinere JavaScript/jQuery med SQL-databasen.
 Hvordan vi skal løse dette på frontend, kombinere dette med 
 backend etc. Hvordan brukergrensesnittet/frontend skal se ut/kodes. 
 Fortsette med å skrive rapporten så langt vi kan, ha flere møter etc.
+
+*Mars:
