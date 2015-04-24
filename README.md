@@ -1,4 +1,4 @@
-#calendarmanager
+#Calendarmanager
 Bachelorprosjekt 2015 (fra januar til mai)
 
 Vår veileder/prosjektveileder: Ismail H (HiOA) 
@@ -37,3 +37,12 @@ ut hvordan vi kan kombinere JavaScript/jQuery med SQL-databasen.
 Hvordan vi skal løse dette på frontend, kombinere dette med 
 backend etc. Hvordan brukergrensesnittet/frontend skal se ut/kodes. 
 Fortsette med å skrive rapporten så langt vi kan, ha flere møter etc.
+
+*Mars: Vi holder på å kode videre med AngularJS/ i frontend med 
+HTML og CSS og har diskutert og sett på ulike eksempler/design. 
+Ruby/Rails med i backend med PostgreSQL som databasen. Vi sliter fortsatt 
+med å finne en fungerende robust måte å kombinere frontend med backend.
+Rapporten er oppdatert, og vi har hatt flere møter med oppdragsgiver.
+
+*April: Vi har hatt flere møter med oppdragsgiver og gruppemøter.
+Mer oppdateringer etter hvert.
