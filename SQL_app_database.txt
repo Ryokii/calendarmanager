@@ -41,9 +41,9 @@ CREATE TABLE events(
   master_email VARCHAR(40) NOT NULL,
   master_telnr INT(8) NOT NULL);
 
-INSERT INTO events(event_name,event_about,event_location,event_date,event_price,master_fornavn,
-master_etternavn,master_email,master_telnr)
-VALUES('Event 1','Det bestebestebeste eventet ever','Oslo','2080-12-12 16:00:00',00000000,
-'Super','Mushroom','supermushroom@mail.com',99999999);
+INSERT INTO events(event_name,event_about,event_location,event_date,event_price,
+master_fornavn,master_etternavn,master_email,master_telnr)
+VALUES('Event 1','Det bestebestebeste eventet ever','Oslo','2080-12-12 16:00:00',
+00000000,'Super','Mushroom','supermushroom@mail.com',99999999);
 
 #Opprett events tabell end
