@@ -2,7 +2,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" type="text/css" href="style_login.css" />
-<link rel="Shortcut Icon" type="image/x-icon" href="http://i.imgur.com/srrsHSm.jpg" />
 <title>JavaScript Login Popup</title>
 <script type="text/javascript">
 //Husk å bruke filen style_login.css i header (vi kan også legge JavaScripten i header)
@@ -12,9 +11,8 @@ window.document.onkeydown = function (close){
 if (!close){
 close = event;
  }
-
 if (close.keyCode == 27){
-lightbox_close();
+loginbox_close();
  }
 }
 
