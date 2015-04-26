@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="Shortcut Icon" type="image/x-icon" href="http://i.imgur.com/srrsHSm.jpg" />
+<title>JavaScript Login Popup</title>
+<script type="text/javascript">
+//Husk å bruke filen style.css i header (vi kan også legge JavaScripten i header)
+
+//Lukker loginvinduet når man trykker utenfor, eller trykker på Esc-tasten
+window.document.onkeydown = function (close){
+if (!close){
+close = event;
+ }
+
+if (close.keyCode == 27){
+lightbox_close();
+ }
+}
+
+//Vis loginvinduet etter at man har trykket på Login
+function loginbox_open(){
+window.scrollTo(0,0); //Scroll til toppen av appen
+document.getElementById('light').style.display='block';
+document.getElementById('fade').style.display='block';	
+}
+
+//Lukk loginvinduet
+function loginbox_close(){
+document.getElementById('light').style.display='none';
+document.getElementById('fade').style.display='none';
+}
+</script>
+</head>
+<body>
+
+<a href="#" onclick="loginbox_open();">Login</a>
+
+<!--Loginbox start-->
+<!--Husk style.css filen i header øverst-->
+<!--Dette vises etter at man har trykket på Login-->
+<div id="light">
+<form action="TIL_RUBY/RAILS" method="post" name="logg_inn">
+<input type="text" name="brukernavn" placeholder="Ditt brukernavn" size="30" title="Brukernavn" />
+<input type="password" name="passord" placeholder="Ditt passord" size="30" title="Passord"/>
+<p>For å lukke dette loginvinduet uten å logge inn, trykker du utenfor vinduet eller på Esc-tasten på tastaturet.</p>
+<input type="submit" value="Login" name="login" title="Login" />
+</form>
+</div>
+<div id="fade" onclick="loginbox_close();">Lukk</div>
+<!--Loginbox end-->
+
+</body>
+</html>
