@@ -1,0 +1,42 @@
+<!--Se app.html-->
+<!--coffee.html start-->
+<h1>Hellow World</h1>
+<p>Hello World</p>
+
+<h2>King</h2>
+
+--coffee--
+<!--coffee.html end-->
+<!--jstest.html start-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>En JavaScript/array-test (JSON)</title>
+<style type="text/css">
+body{background-color:MidnightBlue;}
+p{color:White;}
+#test{color:White;}
+</style>
+</head>
+<body>
+
+<p>En JavaScript/array-test (JSON), se gjerne på kildekoden.</p>
+<p>Mario har nøkkel 0, Peach har nøkkel 1 og Yoshi har nøkkel 2.</p>
+<p>Fornavn: Etternavn: E-mail:</p>
+<p id="test"></p>
+
+<script type="text/javascript">
+var eksempel = '{"paameldte":['+
+'{"fornavn":"Super","etternavn":"Mario","email":"ilovespaghetti@mail.com"},'+
+'{"fornavn":"Peach","etternavn":"Toadstool","email":"ilovecake@mail.com"},'+
+'{"fornavn":"Yoshi","etternavn":"Dino","email":"ilovebbq@mail.com"}]}';
+
+obj = JSON.parse(eksempel);
+document.getElementById("test").innerHTML = 
+obj.paameldte[0].fornavn+" "+obj.paameldte[0].etternavn+" "+obj.paameldte[0].email;
+</script>
+
+</body>
+</html>
+<!--jstest.html end-->
